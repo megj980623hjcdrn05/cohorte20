@@ -1,0 +1,24 @@
+p {
+    color: blueviolet;
+}
+/* universal*/
+*{
+    color: orange;
+}
+em{
+    color: crimson;
+}
+span{
+    color: cadetblue;
+}
+.titulo{
+    color: blue;
+}
+.bl{
+    float: right;
+    background-color: beige;
+    color: white;
+}
+#selector{
+    color: olive;
+}

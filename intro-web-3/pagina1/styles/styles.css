@@ -1,0 +1,32 @@
+*{
+    color:rgb(3, 38, 38);
+}
+main{
+    background-color:rgb(155, 159, 205);
+}
+h1{
+    color: black;
+    font-size: small;
+}
+p{
+    color: black;
+    font-size:xx-small;
+}
+header{
+    color: blue;
+}
+a{
+    color: rgb(3, 38, 38);
+}
+.tittleblack{
+    color: black;
+    font-size: small;
+}
+#oferta{
+    color:violet;
+    font-size: small;
+}
+#destacadas{
+    color:green;
+    font-size: small;
+}
