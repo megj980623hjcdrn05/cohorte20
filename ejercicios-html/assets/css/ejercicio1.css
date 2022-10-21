@@ -1,0 +1,28 @@
+header{
+    background-color: gray;
+    font-size: x-large;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+nav{
+    background-color: green;
+    
+}
+main{
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: gray;
+    padding-top: 30px;
+    padding-top: 30px;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+}
