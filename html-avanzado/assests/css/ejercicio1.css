@@ -1,0 +1,47 @@
+
+*{
+    color: white;
+}
+
+/* form starts */
+form{
+    display: inline-block;
+    background-color: rgba(0,128,0,255);
+    width: 500px;
+    padding: 10px;
+    border: 7px solid cyan ;
+    border-radius: 7px;
+}
+h3{
+    margin-left: 50px;
+}
+label{
+    display: inline-block;
+    width: 80px;
+    margin-left: 100px;
+}
+input{
+    width: 350px;
+    border-color: rgba(255,0,0,255);
+    border-radius: 3px;
+    border-width: 3px;
+}
+.campo{
+    width: 250px;
+}
+#btn{
+    width: 50%;
+    background-color: rgba(240,240,240,255);
+    border-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+#btn:hover{
+    background-color: red;
+    transform:rotate3d(1, 2, 3, 10deg);
+}
+/* form ends */ 
