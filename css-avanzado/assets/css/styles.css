@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat:wght@300;400;700&display=swap');
+/* 10px=1rem */
+html{
+    font-size: 62.5%;
+}
+
+*{
+    /* font-size: 20px; */
+}
+.padre{
+    font-size: 20px;
+}
+body{
+    background-color: aquamarine;
+}
+.parrafo1{
+    font-family: 'Comforter Brush', 'cursive';
+    font-weight: 600;
+}
+
+.parrafo2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+/* root em 
+toma en cuenta el tamano de fuente fijado por el navegador */

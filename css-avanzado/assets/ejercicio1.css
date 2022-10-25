@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@600&family=Comforter+Brush&family=Lato:wght@100&family=Libre+Barcode+39+Extended+Text&family=Montserrat:wght@300;400;700&display=swap');
+
+h1{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+h2{
+    font-family: 'Comforter Brush', cursive;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+}
+ul{
+    font-family: 'Montserrat', sans-serif;
+}
+#nave:hover{
+    background-color: red;
+    transform:rotate3d(1, 2, 3, 10deg);
+}
