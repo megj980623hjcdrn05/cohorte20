@@ -1,5 +1,5 @@
 .container{
-    background:blueviolet;
+  /*   background:blue; */
     margin-top: 20px;
 }
 .uno{
@@ -8,3 +8,22 @@
 .dos{
     background: beige;
 }
+¨.nuno{
+    background: crimson;
+}
+.ancho{
+    background: yellowgreen;
+}
+.ntres{
+    background: thistle;
+}
+.col-lg-2{
+    background: aliceblue;
+}
+.uno4{background: sandybrown;}
+.dos4{background: wheat;}
+.tres4{background: blueviolet;}
+.cuatro4{background: coral;}
+
+.uno5{background: cadetblue;}
+.dos5{background: salmon;}
