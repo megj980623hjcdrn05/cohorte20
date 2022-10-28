@@ -1,5 +1,11 @@
+.body{
+    overflow: hidden;
+}
 .altura-img{
     height: calc(100vh - 56px);
     /* altura vh
        ancho vw */
+}
+.img-cards-uno {
+    height: 15rem;
 }
