@@ -64,7 +64,31 @@ console.log(calcularPrecioTotal2(23.34, 16));
 let miObjeto = {
     nombre: 'juan',
     edad: 33,
-}
+    datos: function () {
+        console.log(this.nombre);
+        console.log(miObjeto.nombre);
+        console.log(miObjeto['edad']);
+    }
+};
 
-console.log(miObjeto.nombre);
-console.log(miObjeto['edad']);
+miObjeto.datos();
+
+let constructor = function () {
+    let objPersona = {
+        nombre: 'juan',
+        nss: 2357,
+        datosPersona: function () {
+            let nsj = 'eres ' + this.nombre + ' el numero nss es ' + this.nss;
+            console.log(nsj);
+        },
+        otroMetodo: function (param) {
+            let num = 8;
+            console.log('la suma es: ' + (num + param));
+        }
+    };
+    return objPersona;
+}
+//let varObjReg = new constructor();
+let varObjReg = constructor(); //crear la variable objeto
+varObjReg.datosPersona();
+varObjReg.otroMetodo(5);
