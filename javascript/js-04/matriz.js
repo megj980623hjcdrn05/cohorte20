@@ -35,21 +35,22 @@ while (fila < 3) {
 
 let ma1 = [
     [2, 5, 6],
-    [5, 9, ],
-    []
+    [5, 9, 7],
+    [6, 4, 3]
 ];
 
 let ma2 = [
-    [5],
-    [8],
-    [1]
+    [5, 3, 2],
+    [8, 5, 4],
+    [1, 4, 9]
 ];
+
+let mar = [[],[],[]];
 
 for (let fila = 0; fila <= 2; fila++) {
     for (let columna = 0; columna <= 2; columna++) {
-        resultado = ma1[fila] * ma2[columna];
-        console.log(resultado);
+         mar[fila][columna] = ma1[fila][columna] * ma2[columna][fila];       
         
     }
-    console.log("-------------");
 }
+console.log(mar);
