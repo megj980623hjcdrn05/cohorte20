@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manipulacion del dom</title>
+    <style>
+        .azul{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="etiqueta1" class="azul">-----ejemplo de dom----</h1>
+    <p id="parrafo" class="azul">saludos desde el dom</p>
+    <p id="otro" class="azul">soy otro parrafo</p>
+    <script>
+        let etiqueta = document.getElementById('etiqueta1');
+        console.log('valor de etiqueta1' + etiqueta.innerHTML);
+
+        let parrafo = document.getElementById('parrafo');
+        console.log('valor de parrafo ' + parrafo.innerHTML);
+       
+        let parrafos = document.getElementsByTagName('p');
+        for (let i = 0; i < parrafos.length; i++) {
+            console.log(`no. de parrafos: ${parrafos[i].innerHTML}`);
+        }
+
+        let parrafos3 = document.getElementsByClassName('azul')
+        console.log(`elementos class: ${parrafos3.length}`);
+        //for (let i = 0; i < parrafos3.length; i++) {   
+            for (const elemento of parrafos3) {
+            console.log(`no. ${elemento.innerHTML}`);
+        }
+
+    </script>
+    form
+</body>
+</html>

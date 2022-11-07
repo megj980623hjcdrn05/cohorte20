@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Suma (+)</h1>
+    <form id="formulario">
+        Valor 1 <input type="number" name='valor1' value= 1> <br>
+        Valor 2 <input type="number" name="valor2" value= 2> <br>
+        Valor 3 <input type="number" name="valor2" value= 3>
+    </form>
+    <button onclick="mostraraValores()">Mostrar</button>
+    <div id="valores"></div>
+    <script>
+    function mostraraValores(){
+    let formulario = document.forms['formulario'];
+    let suma = 0;
+    for (const iterator of formulario) {
+        suma+=parseInt(iterator.value);
+    }
+    document.getElementById('valores').innerHTML = suma;
+}
+    </script>
+    </center>
+</body>
+</html>
