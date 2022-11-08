@@ -13,11 +13,11 @@
 </head>
 <body>
     <center>
-    <h1>Suma (+)</h1>
+    <!-- <h1>Suma (+)</h1>
     <form id="formulario">
         Valor 1 <input type="number" name='valor1' value= 1> <br>
         Valor 2 <input type="number" name="valor2" value= 2> <br>
-        Valor 3 <input type="number" name="valor2" value= 3>
+        Valor 3 <input type="number" name="valor3" value= 3>
     </form>
     <button onclick="mostraraValores()">Mostrar</button>
     <div id="valores"></div>
@@ -30,6 +30,23 @@
     }
     document.getElementById('valores').innerHTML = suma;
 }
+
+    </script> -->
+    <!-- manejo de document.write  -->
+    <!-- <h1> Ejemplo Dom document.write</h1>
+    <button onclick="cambio()">Mostrar</button>
+    <script>
+        function cambio() {
+            document.write('Saludo');
+        }
+    </script> -->
+    <h1>Dom imagenes</h1>
+    <button onclick="cambia()">Cambio</button> <br>
+    <img id="imagen" src="montaña.jpg" alt="" srcset="">
+    <script>
+        function cambia() {
+            document.getElementById('imagen').src = "1b58f03f62b8ca12849163227609dfe5d5b2b2705d94428004838ed821c5a208.jpg"
+        }
     </script>
     </center>
 </body>
