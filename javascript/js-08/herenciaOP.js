@@ -12,7 +12,10 @@ class Persona {
         this._apellido = apellido;
     }
     nombreCompleto() {
-        return this._nombre + ` ` + this._apellido;
+        return this._nombre + ' ' + this._apellido;
+    }
+    toString(){
+        return this.nombreCompleto();
     }
 }
 
@@ -27,14 +30,18 @@ class Empleado extends Persona{
     get empresa(){
         return this._empresa;
         }
-            
-    
+       //sobre escritura del metodo    
+    nombreCompleto(){
+        return super.nombreCompleto() + ' ' + this._empresa;
+    }    
+
 
 }
 
 let p1 = new Persona('hugo', 'sanchez');
-console.log(p1.nombreCompleto);
-
+console.log(p1.nombreCompleto());
+console.log(p1.toString());
 let E1 = new Empleado('juan','perez','coopel');
 
-console.log(E1.nombreCompleto() + ' ' + E1._empresa);
+console.log(E1.nombreCompleto());
+console.log(E1.toString());
